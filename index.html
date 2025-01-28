@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check - Weather Application</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <span class="app-name">Check</span>
+      <img src="cloud.png" alt="Cloud Logo" class="logo-img">
+    </div>
+    <div id="current-location">Fetching location...</div>
+  </header>
+
+  <main class="homepage">
+    <section class="search-section">
+      <h1>Get Weather Information</h1>
+      <form id="location-form">
+        <label for="location">Enter Location:</label>
+        <input type="text" id="location" placeholder="e.g., New York or 40.7128,-74.0060" required>
+        <button type="submit" class="search-button">Search</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

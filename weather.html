@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Details</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <span class="app-name">Check</span>
+      <img src="cloud.png" alt="Cloud Logo" class="logo-img">
+    </div>
+  </header>
+
+  <main class="weather-page">
+    <section id="location-info">
+      <h1><p id="location-name">Fetching location...</p></h1>
+    </section>
+    <h2>Weather Information</h2>
+    <section id="weather-info">
+      <div id="winfo1">
+      <div class="weather-box"><h3>Temperature: </h3><span id="temperature"></span>°C</div>
+      <div class="weather-box"><h3>Rain:</h3> <span id="rain"></span></div>
+      <div class="weather-box"><h3>Wind Speed:</h3> <span id="wind-speed"></span> km/h</div>
+      <div class="weather-box"><h3>Visibility:</h3> <span id="visibility"></span> km</div>
+      </div>
+      <div id="winfo2">
+      <div class="weather-box"><h3>Pressure: </h3><span id="pressure"></span> hPa</div>
+      <div class="weather-box"><h3>Humidity: </h3><span id="humidity"></span>%</div>
+      <div class="weather-box"><h3>Sunset: </h3><span id="sunset"></span></div>
+      <div class="weather-box"><h3>Precipitation: </h3><span id="precipitation"></span></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
